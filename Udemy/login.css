@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color:blue ; */
+    height: 100vh;
+    width: 100wh;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    /* overflow: hidden; */
+    
+}
+.login-box{
+    /* background-color: yellow; */
+    width: 24%;
+    margin-left: 35%;
+    margin-top: 70px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 50vh;
+  
+}
+form label{
+    border: 1px solid black;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    
+}
+
+form label:hover{
+    background-color: rgb(234, 232, 244);
+}
+
+form input{
+    border: 1px solid black;
+    padding: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+form button{
+    padding: 16px;
+    background-color: rgb(145, 64, 222);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+form img{
+    height: 30px;
+    margin-right: 12px;
+}
+
+.check{
+
+    /* background-color: aquamarine; */
+    margin-top: 23px;
+    margin-bottom: 13px;
+    display: flex;
+}
+
+.check #check{
+    background-color: black;
+}
+.check p{
+    padding-left: 12px;
+    font-size: 14px;
+    width: 315px;
+}
+form span{
+    font-size: 12px;
+    /* background-color: green; */
+    margin-left: 12px;
+    margin-bottom: 15px;
+}
+form hr{
+    border-color: rgba(252, 248, 248, 0.971);
+}
+
+form #para {
+    /* margin-left: 2px; */
+    text-align: center;
+    margin-top: 23px;
+    /* font-weight: 500; */
+}
+a{
+    font-weight: 700;
+    color: blue;
+    text-decoration:none;
+}
+
+form #para2{
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+form #para1{
+    margin-top: 12px;
+    font-size: 15px;
+    text-align: center;
+}
